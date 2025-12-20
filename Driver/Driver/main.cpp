@@ -12,11 +12,21 @@ DriverEntry(DRIVER_OBJECT* DriverObject, PUNICODE_STRING RegistryPath){
 	UNREFERENCED_PARAMETER(RegistryPath);
 	DbgPrint("Hello World");
 	DriverObject->DriverUnload = DriverUnload;
+	
+	DriverObject->MajorFunction[IRP_MJ_CREATE] = BoosterCreateClose;
+	DriverObject->MajorFunction[IRP_MJ_CLOSE] = BoosterCreateClose;
+	
+	DriverObject->MajorFunction[IRP_MJ_WRITE] = BoosterWrite;
+
 	return STATUS_SUCCESS;
 }
 
-extern "C" NTSTATUS
-Driver_Dispatch(PDEVICE_OBJECT DriverObject, PIRP Irp) {
+NTSTATUS BoosterCreateClose(PDEVICE_OBJECT DriverObject, PIRP Irp) {
 	
+
+}
+
+NTSTATUS BoosterWrite(PDEVICE_OBJECT DeviceObject, PIRP Irp) {
+
 
 }
