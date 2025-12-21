@@ -1,23 +1,7 @@
 ﻿  Building 'Driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\Driver.inf
-  Stamping [Version] section with DriverVer=12/19/2025,16.15.50.267
+  Stamping [Version] section with DriverVer=12/21/2025,4.33.11.206
   main.cpp
-  Driver.vcxproj -> C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\x64\Debug\Driver.sys
-  Done Adding Additional Store
-  Successfully signed: C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\x64\Debug\Driver.sys
-  
-  Driver is 'Universal'.
-  .........................
-  Signability test complete.
-  
-  Errors:
-  None
-  
-  Warnings:
-  None
-  
-  Catalog generation complete.
-  C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\x64\Debug\Driver\driver.cat
-  Done Adding Additional Store
-  Successfully signed: C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\x64\Debug\Driver\driver.cat
-  
+main.obj : error LNK2019: unresolved external symbol "long __cdecl BoosterCreateClose(struct _DEVICE_OBJECT *,struct _IRP *)" (?BoosterCreateClose@@YAJPEAU_DEVICE_OBJECT@@PEAU_IRP@@@Z) referenced in function DriverEntry
+main.obj : error LNK2019: unresolved external symbol "long __cdecl BoosterWrite(struct _DEVICE_OBJECT *,struct _IRP *)" (?BoosterWrite@@YAJPEAU_DEVICE_OBJECT@@PEAU_IRP@@@Z) referenced in function DriverEntry
+C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\x64\Debug\Driver.sys : fatal error LNK1120: 2 unresolved externals
