@@ -8,9 +8,20 @@ VOID DriverUnload(DRIVER_OBJECT* DriverObject) {
 	DbgPrint("bye");
 }
 
-NTSTATUS BoosterCreateClose(PDEVICE_OBJECT DriverObject, PIRP Irp);
+void BoosterUnload(_In_ PDRIVER_OBJECT DriverObject) {
+	UNICODE_STRING symLink = RTL_CONSTANT_STRING(L"\\??\\Booster");
+	IoDeleteSymbolicLink(&symLink);
 
-NTSTATUS BoosterWrite(PDEVICE_OBJECT DeviceObject, PIRP Irp);
+	IoDeleteDevice(DriverObject->DeviceObject);
+}
+
+NTSTATUS BoosterCreateClose(PDEVICE_OBJECT DriverObject, PIRP Irp) {
+
+}
+
+NTSTATUS BoosterWrite(PDEVICE_OBJECT DeviceObject, PIRP Irp) {
+
+}
 
 extern "C" NTSTATUS
 DriverEntry(DRIVER_OBJECT* DriverObject, PUNICODE_STRING RegistryPath){
