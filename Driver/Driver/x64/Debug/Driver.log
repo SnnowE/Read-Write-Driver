@@ -1,11 +1,2 @@
 ﻿  Building 'Driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
-  Stamping x64\Debug\Driver.inf
-  Stamping [Version] section with DriverVer=12/21/2025,13.33.51.193
-  main.cpp
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(18,63): error C2220: the following warning is treated as an error
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(18,63): warning C4100: 'Irp': unreferenced formal parameter
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(18,44): warning C4100: 'DriverObject': unreferenced formal parameter
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(22,62): warning C4459: declaration of 'DeviceObject' hides global declaration
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(3,16): message : see declaration of 'DeviceObject'
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(22,57): warning C4100: 'Irp': unreferenced formal parameter
-C:\Users\User\Documents\GitHub\Read-Write-Driver\Driver\Driver\main.cpp(22,38): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(511,5): error MSB8040: Spectre-mitigated libraries are required for this project. Install them from the Visual Studio installer (Individual components tab) for any toolsets and architectures being used. Learn more: https://aka.ms/Ofhn4c
