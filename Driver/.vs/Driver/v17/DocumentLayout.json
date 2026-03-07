@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D59F7487-8398-D47A-449B-5D462CE5E701}|Driver\\Driver.vcxproj|C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\Driver\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D59F7487-8398-D47A-449B-5D462CE5E701}|Driver\\Driver.vcxproj|solutionrelative:Driver\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41E03DC5-AEB9-4BF4-8ABA-E5F299945325}|UserMode\\UserMode.vcxproj|C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\UserMode\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{41E03DC5-AEB9-4BF4-8ABA-E5F299945325}|UserMode\\UserMode.vcxproj|solutionrelative:UserMode\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D59F7487-8398-D47A-449B-5D462CE5E701}|Driver\\Driver.vcxproj|C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\Driver\\BoosterCommon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D59F7487-8398-D47A-449B-5D462CE5E701}|Driver\\Driver.vcxproj|solutionrelative:Driver\\BoosterCommon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D59F7487-8398-D47A-449B-5D462CE5E701}|Driver\\Driver.vcxproj|C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\Driver\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D59F7487-8398-D47A-449B-5D462CE5E701}|Driver\\Driver.vcxproj|solutionrelative:Driver\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BoosterCommon.h",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\Driver\\BoosterCommon.h",
               "RelativeDocumentMoniker": "Driver\\BoosterCommon.h",
@@ -39,26 +39,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\UserMode\\main.cpp",
               "RelativeDocumentMoniker": "UserMode\\main.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\UserMode\\main.cpp",
               "RelativeToolTip": "UserMode\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-22T09:01:36.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\Driver\\main.cpp",
               "RelativeDocumentMoniker": "Driver\\main.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\Read-Write-Driver\\Driver\\Driver\\main.cpp",
               "RelativeToolTip": "Driver\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwEgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-19T11:22:49.186Z",
               "EditorCaption": ""
